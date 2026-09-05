@@ -1,0 +1,40 @@
+# Data & trained artifacts (large files — download from Kaggle instead)
+*.csv
+*.npy
+*.npz
+*.json
+*.joblib
+*.pkl
+*.pt
+*.h5
+*.parquet
+*.feather
+*.zip
+
+# Screenshots & OCR cache (hundreds of MB)
+dataset-task2/screenshots/
+cache/
+features/
+models/
+eda_outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
