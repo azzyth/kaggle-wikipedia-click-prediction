@@ -6,6 +6,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+competition link: https://www.kaggle.com/competitions/datathon-task-2
 Predicting **which Wikipedia link a navigator clicks next**, given their current article and the target article they are heading for   using **OCR** to "read" rendered page screenshots plus **TF-IDF text features** and a **tree + neural-network ensemble**.
 
 > **Result:** 126th out of 282 teams · Team **TelyuAlgo**
