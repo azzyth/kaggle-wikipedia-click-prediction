@@ -11,7 +11,8 @@ from pathlib import Path #digunakan untuk bekerja dengan pathfile dan direktori 
 # Konfigurasi & device
 # =========================
 import os #digunakan untuk berinteraksi engan sistem operasi seperti mengambil data dari folder tertentu
-BASE_DIR = Path(os.environ.get("TASK2_DATA_DIR", r"D:\coding stuff\pandasenv\task2\dataset-task2"))
+BASE_DIR = Path(os.environ.get("TASK2_DATA_DIR",
+                               Path(__file__).resolve().parent / "data" / "dataset-task2"))
 SCREENSHOT_DIR = BASE_DIR / "screenshots"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
